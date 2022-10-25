@@ -31,7 +31,7 @@ public class Letter {
         this.email = email;
     }
 
-    /* public Long getId() {
+     public Long getId() {
         return id;
     }
 
@@ -53,9 +53,9 @@ public class Letter {
 
     public void setEmail(String email) {
         this.email = email;
-    } */
+    } 
 
-    /* @Override
+     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
@@ -63,9 +63,9 @@ public class Letter {
         result = prime * result + ((id == null) ? 0 : id.hashCode());
         result = prime * result + ((name == null) ? 0 : name.hashCode());
         return result;
-    } */
+    } 
 
-    /* @Override
+     @Override
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
@@ -73,7 +73,7 @@ public class Letter {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        User other = (User) obj;
+        Letter other = (Letter) obj;
         if (email == null) {
             if (other.email != null)
                 return false;
@@ -90,11 +90,11 @@ public class Letter {
         } else if (!name.equals(other.name))
             return false;
         return true;
-    } */
+    } 
 
-    /* @Override
+     @Override
     public String toString() {
-        return "User [email=" + email + ", id=" + id + ", name=" + name + "]";
-    } */
+        return "Letter [email=" + email + ", id=" + id + ", name=" + name + "]";
+    } 
 
 }

@@ -1,4 +1,5 @@
 ALTER TABLE letters AUTO_INCREMENT = 1;
+ALTER TABLE contacto AUTO_INCREMENT= 1;
 
 INSERT INTO letters (email,name) values ("Cuanto tardais en responder?","Respondemos aproximadamente en el plazo de 24 horas");
 INSERT INTO letters (email,name) values ("Servicios que ofreceis","Contamos con diferentes propuestas, podras enviar cartas,quejas o reclamaciones o preguntas");
@@ -10,4 +11,4 @@ INSERT INTO letters (email,name) values ("Como llega mi carta?","La carta se der
 INSERT INTO letters (email,name) values ("Por donde me llega la respuesta?","Via correo electronico o en caso de que el usuario no tenga, llamada telefonica");
 INSERT INTO question (pregunta,respuesta) values ("¿El chat es real?", "hola");
 
-
+INSERT INTO contacto (email,name) values ('Antonio','Fernández');
